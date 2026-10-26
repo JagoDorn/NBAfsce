@@ -80,7 +80,7 @@ stat_arr_row_idx = np.array(np.squeeze([np.where(team_names == x) for x in stat_
 #team_names[stat_arr_row_name]
 
 stat_df = [pd.DataFrame(data = stat_arr[:,:,idx1], columns = stat_arr_col_name, index = stat_arr_row_name) for idx1 in range(2)]
-print(np.squeeze([stat_df[idx2].index.tolist() for idx2 in range(2)]))
+print([stat_df[idx2].index.tolist() for idx2 in range(2)])
 
 #print(stat_arr[0,:,0])
 #print(stat_arr_col_name)

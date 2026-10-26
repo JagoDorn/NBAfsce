@@ -58,4 +58,4 @@ def getBetterUniqueness(data_df):
 
 #print(getBetterUniqueness(data_01))
 
-print(data_01[["Miami Heat", "LA Clippers", "Golden State Warriors", "Philadelphia 76ers", "New York Knicks", "Los Angeles Lakers", "Milwaukee Bucks", "Portland Trail Blazers", "Boston Celtics", "Oklahoma City Thunder"]].to_string())
+#print(data_01[["Miami Heat", "LA Clippers", "Golden State Warriors", "Philadelphia 76ers", "New York Knicks", "Los Angeles Lakers", "Milwaukee Bucks", "Portland Trail Blazers", "Boston Celtics", "Oklahoma City Thunder"]].to_string())
